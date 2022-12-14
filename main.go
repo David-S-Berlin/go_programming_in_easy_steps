@@ -2,14 +2,23 @@ package main
 
 import (
   "fmt"
-  "verify"
+  "main/verify"
 )
 
 
 func main() {
 
   closure()
-  num, err := verify.isPosInt(2)
+  
+  for i := 2; i >= -2; i-- {
+    num, err := verify.IsPosInt(i)
+    if err != nil {
+      fmt.Println("Error: ", err)
+    } else {
+      fmt.Println(num, " passed")
+    }
+  }
+
 
 }
 
