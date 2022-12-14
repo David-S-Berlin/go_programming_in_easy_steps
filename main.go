@@ -24,3 +24,6 @@ func main() {
   fmt.Println("Count: ", counter())
 
 }
+
+
+func isPosInt
