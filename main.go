@@ -1,9 +1,20 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "verify"
+)
 
 
 func main() {
+
+  closure()
+  num, err := verify.isPosInt(2)
+
+}
+
+
+func closure() {
 
   area := func( length, width int ) int {
     return length * width
@@ -22,8 +33,7 @@ func main() {
   fmt.Printf("counter Type %T \n", counter)
   fmt.Println("Count: ", counter())
   fmt.Println("Count: ", counter())
-
 }
 
 
-func isPosInt
+
