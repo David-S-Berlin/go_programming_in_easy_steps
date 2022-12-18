@@ -3,7 +3,7 @@ package main
 import (
   "fmt"
   "main/verify"
-  "cube"
+  "main/cube"
 )
 
 
