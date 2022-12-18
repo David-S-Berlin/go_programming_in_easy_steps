@@ -1,22 +1,22 @@
 package cube
 
 type Dims struct {
-width, length, height int
+  width, length, height int
 }
 
 
 func (d *Dims) area() int {
-return d.width * d.length
+  return d.width * d.length
 }
 
 func (d *Dims) SetSize( w, l, h int) {
-d.width = w
+  d.width = w
   d.length = l
   d.height = h
 }
 
 func (d *Dims) GetVolume() int {
-return d.width * d.length * d.height
+  return d.width * d.length * d.height
 }
 
 func (d *Dims) GetArea() int {
