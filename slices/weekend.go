@@ -1,6 +1,6 @@
 package slices
 
-import fmt
+import "fmt"
 
 
 func OutputWeekend() {
@@ -8,7 +8,7 @@ func OutputWeekend() {
   weekend := days [5:]
 
   fmt.Printf("Slice weekend %v \n", weekend)
-  fmt.Printf("Type weekand %T \n", weekand)
+  fmt.Printf("Type weekand %T \n", weekend)
   
   fmt.Printf("Length weekend %v \n", len(weekend))
   fmt.Printf("Capacity weekend %v \n", cap(weekend))
