@@ -6,6 +6,7 @@ import (
   "main/verify"
   "main/cube"
   "main/slices"
+  "main/makeslices"
 )
 
 
