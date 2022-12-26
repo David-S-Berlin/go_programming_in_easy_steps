@@ -2,6 +2,7 @@ package main
 
 import (
   "fmt"
+  "main/closure"
   "main/verify"
   "main/cube"
   "main/slices"
@@ -10,7 +11,8 @@ import (
 
 func main() {
 
-  closure()
+  // closure
+  closure.ClosureReturn()
   
   //verify
   for i := 2; i >= -2; i-- {
@@ -30,6 +32,10 @@ func main() {
 
   // slices
   slices.OutputWeekend()
+  
+  // "make" slices
+  makeslices.SliceOperations()
+  
 }
 
 
