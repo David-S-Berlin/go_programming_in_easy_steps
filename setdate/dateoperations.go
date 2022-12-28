@@ -7,9 +7,17 @@ import (
 
 func DateOperations() {
 
+  // format date and time
+  dateNow := time.Now()
+  // Attention!!! Use everytime exactly the date-time
+  // 2006-01-02 15:04:05 
+  // for formatting
+  dateString := dateNow.Format("2006-01-02, (Monday), 15:04:05")
+  fmt.Printf("\n\nCustom format %v\n", dateString)
+
 	// create own Date
 	dt := time.Date(2025, time.January, 1, 12, 0, 0, 0, time.Local)
-	fmt.Printf("\n\nDateTime: %v \n\n", dt)
+	fmt.Printf("\nDateTime: %v \n\n", dt)
 
 	// AddDate
 	dt = dt.AddDate(2, 6, 3)
