@@ -7,6 +7,7 @@ import (
   "main/cube"
   "main/slices"
   "main/makeslices"
+  "main/setdate"
 )
 
 
@@ -36,6 +37,9 @@ func main() {
   
   // "make" slices
   makeslices.SliceOperations()
+
+  // date operations
+  setdate.DateOperations()
   
 }
 
