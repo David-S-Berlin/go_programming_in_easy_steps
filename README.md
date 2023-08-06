@@ -1,1 +1,1 @@
-# go_programming_in_easy_steps
+# Go language programming in easy steps
